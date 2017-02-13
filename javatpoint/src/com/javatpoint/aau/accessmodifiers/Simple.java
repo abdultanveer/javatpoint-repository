@@ -1,9 +1,9 @@
 package com.javatpoint.aau.accessmodifiers;
 
-class A {
+class ASimple {
 	private int data = 40;
 
-	private void msg() {
+	void msg() {
 		System.out.println("Hello java");
 	}
 }
@@ -11,9 +11,9 @@ class A {
 public class Simple {
 
 	public static void main(String[] args) {
-		A obj = new A();
-		//System.out.println(obj.data);// Compile Time Error
-		//obj.msg();// Compile Time Error
+		ASimple obj = new ASimple();
+		// System.out.println(obj.data);// Compile Time Error
+		obj.msg();// Compile Time Error
 	}
 
 }

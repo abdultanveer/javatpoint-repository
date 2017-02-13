@@ -1,7 +1,7 @@
 package com.javatpoint.aau.accessmodifiers;
 
-class A1 {
-	private A1() {
+class ASimple1 {
+	private ASimple1() {
 	}// private constructor
 
 	void msg() {
@@ -12,7 +12,7 @@ class A1 {
 public class Simple1 {
 
 	public static void main(String[] args) {
-		//A1 obj = new A1();// Compile Time Error
+		//ASimple1 obj = new ASimple1();// Compile Time Error
 
 	}
 
