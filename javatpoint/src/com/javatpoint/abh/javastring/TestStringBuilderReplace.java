@@ -1,0 +1,12 @@
+package com.javatpoint.abh.javastring;
+
+//StringBuilder replace() method
+class TestStringBuilderReplace {
+
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder("Hello");
+		sb.replace(1, 3, "Java");
+		System.out.println(sb);// prints HJavalo
+	}
+
+}
